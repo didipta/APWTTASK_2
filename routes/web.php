@@ -22,4 +22,4 @@ Route::get('/', function () {
 Route::get('/Signinpage', [firstcontrollerpage::class, 'signin'])->name('/signinpage');
 Route::get('/Signuppage', [firstcontrollerpage::class, 'signup'])->name('/signuppage');
 Route::post('/Dashboard', [firstcontrollerpage::class, 'loginform'])->name('/Dashboard');
-Route::post('/Registertion', [firstcontrollerpage::class, 'sigpupform'])->name('/Registertion');
+Route::post('/Registertion',[firstcontrollerpage::class, 'sigpupform'])->name('/Registertion');
